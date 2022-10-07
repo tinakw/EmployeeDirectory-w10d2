@@ -1,41 +1,34 @@
 export default [
     {
-      img: "https://img.pokemondb.net/sprites/diamond-pearl/normal/jolteon.png",
+      img: "%PUBLIC_URL%/img1.jpg",
       name: "Jane King",
-      role: "President",
-      division: " and CEO"
+      title: "President and CEO",
     },
     {
-      img: "https://img.pokemondb.net/sprites/diamond-pearl/normal/skarmory.png",
+      img: "public/img2.jpg",
       name: "Julie Taylor",
-      role: "VP",
-      division: " of Marketing"
+      title: "VP of Marketing",
     },
     {
-      img: "https://img.pokemondb.net/sprites/diamond-pearl/normal/gardevoir.png",
+      img: "public/img3.jpg",
       name: "Eugenie Lee",
-      role: "CFO",
-      division: " "
+      title: "CFO",
     },
     {
-      img: "https://img.pokemondb.net/sprites/diamond-pearl/normal/flygon.png",
+      img: "public/img4.jpg",
       name: "Johnna Williams",
-      role: "VP",
-      division: " of Engineering"
+      title: "VP of Engineering",
     },
   
     {
-      img: "https://img.pokemondb.net/sprites/diamond-pearl/normal/absol.png",
+      img: "public/img5.jpg",
       name: "Rayven Moore",
-      role: "VP",
-      division: " of Sales"
+      title: "VP of Sales",
     },
     {
-      img:
-        "https://img.pokemondb.net/sprites/diamond-pearl/normal/mamoswine-f.png",
+      img: "public/img6.jpg",
       name: "Paula Jones",
-      role: "QA",
-      division: " Manager"
+      title: "QA Manager",
     }
   ];
   

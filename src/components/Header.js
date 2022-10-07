@@ -1,7 +1,7 @@
-export default function Header({title}) {
+export default function Header(props) {
     return (
-        <>
-        <h1>{title}</h1>
-        </>
+      <div className="header">
+        <h1>Employee Directory</h1>
+      </div>
     );
-}
+  };

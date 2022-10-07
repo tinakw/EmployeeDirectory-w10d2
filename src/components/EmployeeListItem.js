@@ -1,13 +1,11 @@
-// import EmployeeImg from "./EmployeeImg";
 
-export default function EmployeeListItem({ img, name, role, division}) {
+export default function EmployeeListItem(props) {
   return (
-    <div className="list-item">
-      {/* <EmployeeImg img={img} alt={name} /> */}
-      <div className="content">
-        <h4>{name}</h4>
-        <p>{role}</p>
-        <p>{division}</p>
+    <div className="employeeListItem">
+      <img src={props.img} alt="employeephoto" />
+      <div className="employeeTitle">
+        <span className="employeeName">{props.name}</span>
+        <span className="employeeTitle">{props.title}</span>
       </div>
     </div>
   );

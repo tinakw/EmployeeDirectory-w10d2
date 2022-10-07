@@ -1,56 +1,50 @@
 .App {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
-  h4,
-  p {
-    margin: 0;
-  }
-  
-  p {
-    font-size: 0.75em;
-    color: gray;
-  }
-  
-  .input-wrap {
-    width: 81vw;
-  }
-  
-  input {
-    width: 60%;
-    text-align: center;
-  }
-  
-  .list-item {
-    display: flex;
-    border: red 1px solid;
-    width: 80vw;
-    min-width: 200px;
-    min-height: 80px;
-    max-height: 80px;
-    height: 18vh;
-    margin: 3px;
-    padding: 2px;
-  }
-  
-  .picture {
-    width: 80px;
-    height: 80px;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 5px;
-    width: 100%;
-    height: 100%;
-  }
-  
+  font-family: sans-serif;
+  text-align: center;
+  border: solid black 5px;
+  height: 100vh;
+  display: flex;
+}
+.employeePage {
+  border: solid rgb(177, 113, 113) 5px;
+  width: 50%;
+}
+.homepage {
+  border: solid goldenrod 5px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  border: solid#89CFF0 5px;
+  height: 10%;
+  text-align: center;
+}
+.searchBar {
+  border: solid green 5px;
+  height: 10%;
+}
+.employeeList {
+  border: solid #ac299a 5px;
+  height: 80%;
+}
+
+.employeeListItem {
+  display: flex;
+  text-align: left;
+  border: solid red 4px;
+  height: 10%;
+}
+.employeeTitle {
+  display: flex;
+  flex-direction: column;
+}
+.employeeName {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.employeePhoto {
+  margin-right: 10px;
+  text-align: center;
+  height: 5px;
+}

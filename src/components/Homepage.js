@@ -1,13 +1,14 @@
 import Header from "./Header";
-import Search from "./SearchBar";
+import SearchBar from "./SearchBar";
 import EmployeeList from "./EmployeeList";
 
-export default function Home() {
+//create component
+export default function HomePage(props) {
   return (
-    <>
-      <Header title="Employee Directory" />
-      <Search />
+    <div className="homepage">
+      <Header />
+      <SearchBar />
       <EmployeeList />
-    </>
+    </div>
   );
 }
