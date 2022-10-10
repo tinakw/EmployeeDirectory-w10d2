@@ -5,25 +5,38 @@
   height: 100vh;
   display: flex;
 }
+
 .employeePage {
-  border: solid rgb(177, 113, 113) 5px;
+  border: solid rgb(99, 64, 64) 5px;
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
+
 .homepage {
   border: solid goldenrod 5px;
   width: 50%;
   display: flex;
   flex-direction: column;
 }
+
 .header {
   border: solid#89CFF0 5px;
   height: 10%;
   text-align: center;
 }
+
+.header2 {
+  border: solid#89CFF0 5px;
+  height: 10%;
+  text-align: center;
+}
+
 .searchBar {
   border: solid green 5px;
   height: 10%;
 }
+
 .employeeList {
   border: solid #ac299a 5px;
   height: 80%;
@@ -35,16 +48,75 @@
   border: solid red 4px;
   height: 10%;
 }
+
 .employeeTitle {
   display: flex;
   flex-direction: column;
 }
+
+.employeeTitle employeeTitle {
+  font-size: 25px;
+}
+
 .employeeName {
   font-size: 1.5em;
   font-weight: bold;
 }
+
 .employeePhoto {
   margin-right: 10px;
   text-align: center;
   height: 5px;
+
+}
+
+.singleEmployeePhoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.photoTitleContainer {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactInformationContainer {
+  display: flex;
+  padding: 25px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
+
+.contactInformationContainer p {
+  font-weight: bold;
+  text-align: left;
+}
+
+.contactInformationContainer img {
+  width: 100px;
+  height: 100px;
+}
+
+.employeeListItem img {
+  width: 105px;
+  height: 105px;
+  object-fit: cover;
+}
+
+.headerContainer {
+  display: flex;
+  padding: 25px;
+}
+
+.headerContainer img {
+  width: 100px;
+  height: 100px;
 }

@@ -2,6 +2,8 @@ import "./styles.css";
 
 //import parent component
 import HomePage from "./components/HomePage";
+import EmployeePage from "./components/EmployeePage";
+import { useState } from "react";
 
 //Import Data
 import employeesArr from "./data";
@@ -15,11 +17,16 @@ console.log("this is employeesArr:", employeesArr);
 // console.log(employees);
 
 export default function App() {
+  const [employeeId, setEmployeeId]=useState(0)
+  const [employeeList, setEmployeeList] = useState(employeesArr)
+  console.log('what is employeeList state: ', employeeList);
+
   return (
     <div className="App">
-      <HomePage className="homepage" />
+      <HomePage className="homepage" setEmployeeId={setEmployeeId} />
       {/* <section className="cards">{employees}</section> */}
-      <div className="employeePage"></div>
+      <EmployeePage employeeId={employeeId} employeeList ={employeeList}  />
+
     </div>
   );
 }
