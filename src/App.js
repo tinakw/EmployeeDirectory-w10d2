@@ -19,7 +19,7 @@ console.log("this is employeesArr:", employeesArr);
 export default function App() {
   const [employeeId, setEmployeeId]=useState(0)
   const [employeeList, setEmployeeList] = useState(employeesArr)
-  console.log('what is employeeList state: ', employeeList);
+  console.log('what is employeeList state: ', setEmployeeList);
 
   return (
     <div className="App">

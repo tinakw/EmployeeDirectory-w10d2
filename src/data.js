@@ -39,7 +39,6 @@ export default [
       sms: "617-000-0004",
       email: "jwilliams@fakemail.com",
     },
-  
     {
       id: 5,
       img: "img5.jpg",

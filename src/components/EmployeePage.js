@@ -1,5 +1,5 @@
 import Header2 from "./Header2"
-import EmployeeListItem from "./EmployeeListItem"
+// import EmployeeListItem from "./EmployeeListItem"
 
 
 export default function EmployeePage(props) {
@@ -33,7 +33,7 @@ export default function EmployeePage(props) {
                                 <p >Call Office</p>
                                 <span className="employeeOffice">{singleEmployee.office}</span>
                             </div>
-                            <img src="/chevron-right.png" />
+                            <img src="/chevron-right.png" alt="right chevron icon"/>
                         </div>
 
                         <div className="contactInformationContainer">
@@ -41,7 +41,7 @@ export default function EmployeePage(props) {
                                 <p >Call Mobile</p>
                                 <span className="employeeOffice">{singleEmployee.mobile}</span>
                             </div>
-                            <img src="/chevron-right.png" />
+                            <img src="/chevron-right.png" alt="right chevron icon" />
                         </div>
 
                         <div className="contactInformationContainer">
@@ -49,7 +49,7 @@ export default function EmployeePage(props) {
                                 <p >SMS</p>
                                 <span className="employeeOffice">{singleEmployee.sms}</span>
                             </div>
-                            <img src="/chevron-right.png" />
+                            <img src="/chevron-right.png" alt="right chevron icon" />
                         </div>
 
                         <div className="contactInformationContainer">
@@ -57,7 +57,7 @@ export default function EmployeePage(props) {
                                 <p >Email</p>
                                 <span className="employeeOffice">{singleEmployee.email}</span>
                             </div>
-                            <img src="/chevron-right.png" />
+                            <img src="/chevron-right.png" alt="right chevron icon"/>
                         </div>
                     </div>
 

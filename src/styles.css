@@ -106,8 +106,8 @@
 }
 
 .employeeListItem img {
-  width: 105px;
-  height: 105px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
 }
 
